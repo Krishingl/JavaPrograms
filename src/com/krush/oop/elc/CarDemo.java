@@ -39,6 +39,40 @@ public class CarDemo {
 		
 		
 		
+Car cr2=new Car(); //Object Created 
+		
+		//Data Pass Throw the Parameters
+		cr2.setCarData("Tata","Nexon", "Black", 5, true, false, true, 15,1505000.00 );
+
+ 
+		
+		
+		//Display Car Data
+		System.out.println(cr2);  // call the toString() method 
+		System.out.println("________________________________________________________");
+		System.out.println("________________________________________________________");
+		
+		cr2.openLock();
+		
+		System.out.println("________________________________________________________");
+		
+		cr2.itsStart();
+		
+		
+		System.out.println("________________________________________________________");
+		
+		cr2.itsStop();
+		
+		
+		System.out.println("________________________________________________________");
+		
+		cr2.itsLock();
+		
+		System.out.println("________________________________________________________");
+		
+		
+		
+		
 		
 		
 		
