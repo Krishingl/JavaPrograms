@@ -16,7 +16,7 @@ public class Bank {
       private String customerAddress="null";
       private long   customerContact=0L;
       private long customerAadhar=0L;
-     static  private long customerAcNumber=0000000000L;
+      private long customerAcNumber=0000000000L;
       private double  customerBankBalance=1000; //minimum deposit balance 
       private int pinCode=000000;
       
@@ -74,7 +74,7 @@ public class Bank {
 	}
 	public void withdrow(double withdrow){
 	      
-		if(withdrow >=customerBankBalance-1000)
+		if(withdrow <=customerBankBalance-1000)
 		{
 			System.out.print("Enter the Pin code : ");
 			
@@ -83,6 +83,7 @@ public class Bank {
 			customerBankBalance-=withdrow;
 			System.out.println("Succesfully Deposite "+withdrow+".Rs");
 			}else System.err.println("Enter a valid pin ");
+		
 			
 		}else System.err.println("Insuffitiant Balance ");
 		
