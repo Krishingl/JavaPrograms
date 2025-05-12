@@ -41,7 +41,8 @@ public class Car {
 		return;
 	}
 	@Override
-	public String toString() {
+	public String toString()
+	{
 		return "Car [carCompany=" + carCompany + ", carModel=" + carModel + ", carColor=" + carColor + ", year=" + year
 				+ ", carPrice=" + carPrice + ", isSport=" + isSport + ", withAirBags=" + withAirBags + "]";
 	}

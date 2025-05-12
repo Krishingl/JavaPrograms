@@ -27,7 +27,7 @@ public class ConstructorDemoOnCar
 		String carColor=sc.nextLine();
 		 
 		
-		System.out.println("Enter The price of car : ");
+		System.out.print("Enter The price of car : ");
 		
 		double carP=Double.parseDouble(sc.nextLine());
 		
@@ -38,15 +38,13 @@ public class ConstructorDemoOnCar
 		boolean itsSport=sc.nextBoolean();
 		
 		
-		  
 		
-		
-		
-		
-		Car carRef = new Car(carColor, carM, carColor, carMYear, carP, itsSport, itsAirBags);
+		Car carRef = new Car(carC, carM, carColor, carMYear, carP, itsSport, itsAirBags);
 		
 		
 		System.out.println(carRef);
+		return;
+		
 		
 	}
 
