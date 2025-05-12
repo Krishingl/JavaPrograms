@@ -11,8 +11,11 @@ public class EmployeeSalaryTester {
 		emp.calculateSalary();
 		System.out.println(emp);
 		
-		Employee emp2 =new Employee("Michael", "Johnson", 105, 50000.00, -5);
-		emp.calculateSalary();
+		System.out.println("----------------------------");
+		
+		
+		Employee emp2 =new Employee("Michael", "Johnson", 105, 50000.00, 10);
+		emp2.calculateSalary();
 		System.out.println(emp2);
 		
 		

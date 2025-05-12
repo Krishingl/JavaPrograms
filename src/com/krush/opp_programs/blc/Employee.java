@@ -1,5 +1,5 @@
 package com.krush.opp_programs.blc;
-
+//BLC
 public class Employee {
 	
 	
@@ -27,13 +27,13 @@ public class Employee {
 	{
 		 if(NoOfProject>5 && NoOfProject<10)
 		{
-			salary+=5000;
-		}else if(NoOfProject>10 && NoOfProject<20)
-		{
-			salary+=10000;
+			this.salary+=5000;
+		}else if(NoOfProject>=10 && NoOfProject<20)
+		{      
+			this.salary+=10000;
 		}else
 		{
-			salary+=15000;
+			this.salary+=15000;
 		}
 		
 	}
