@@ -147,7 +147,7 @@ public class TaskDemo
 		
 		
 		
-		
+		sc.close();
 	}
 
 }
