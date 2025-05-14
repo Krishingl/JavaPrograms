@@ -14,6 +14,8 @@ public class InventoryMain
 		double iPrice=sc.nextDouble();
 		System.out.print("Enter Item Quatity: ");
 		int iQuantity=sc.nextInt();
+		
+		
 		InventoryItem item=new InventoryItem(iName, iPrice, iQuantity);
 		
 		System.out.println(""+item+'\n'+'\n'+"Your total Bill is "+item.calculateTotalValue(iPrice, iQuantity)+'\n');
