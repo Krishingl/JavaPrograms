@@ -15,11 +15,6 @@
 //In the setter for rollNo, ensure the value cannot be negative. If it is, throw an IllegalArgumentException.
 //
 
-
-
-
-
-
 package com.krush.data_hiding.blc;
 
 public class Student {
@@ -40,16 +35,32 @@ public class Student {
 	}
 
 	public void setName(String name) {
+		if(name.isEmpty()) {
+			System.err.println("Error : name not be Null ");
+			System.exit(0);
+		}
 		this.name = name;
 	}
 
 	public int getRollNo() {
+		
 		return rollNo;
 	}
 
 	public void setRollNo(int rollNo) {
+		if(rollNo<0) {
+			System.err.println("Error : Invalid Roll No. ");
+			System.exit(0);
+		}
 		this.rollNo = rollNo;
 	}
+
+	@Override
+	public String toString() {
+		return "Student [name=" + name + ", rollNo=" + rollNo + "]";
+	}
+	   
+	
 	
 	   
 
