@@ -40,7 +40,7 @@ public class StudentDemo {
 		 System.out.println("Your Updated Details is "+student);
 	}else System.out.println("Your Details is "+student);
 		
-		
+		sc.close();
 		
 		
 
