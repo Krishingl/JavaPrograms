@@ -5,7 +5,7 @@ public class Employee
 	
      private int employeeId;
      private String employeeName;
-     private double employeeSalary;   
+     private double employeeSalary;
   public   Employee(int employeeId,String employeeName, double employeeSalary)
      {  
 	  
