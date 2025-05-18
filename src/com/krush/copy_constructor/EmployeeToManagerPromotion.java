@@ -20,7 +20,7 @@ public class EmployeeToManagerPromotion
 		System.out.println("Before pramotion.");
 		System.out.println(emp);
 		
-		System.out.println("===========================================");
+		System.out.println("=====================================");
 		
 		System.out.println("After promotion.");
 		System.out.println(mg);

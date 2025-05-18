@@ -1,6 +1,7 @@
 package com.krush.copy_constructor;
 
-public class Manager {
+public class Manager 
+{
 
 	
  private int managerId;
