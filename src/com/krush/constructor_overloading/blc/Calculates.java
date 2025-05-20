@@ -2,7 +2,6 @@ package com.krush.constructor_overloading.blc;
 
 public class Calculates {
 
-	
 	public Calculates(int x)//100
 	{  this(1000,2000); 
 	    //third Execute
