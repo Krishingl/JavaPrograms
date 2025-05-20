@@ -9,7 +9,7 @@ public class Calculates {
 	}
 	public Calculates(int x,int y)//1000, 200 
 	{      this("Java "," is ","Best.");
-	       //Second execute
+	          //Second execute
 		System.out.println("Two parameter Constructor : "+(x+y));
 	}
 	public Calculates(String x,String y,String z)//Java , is , Best. 
