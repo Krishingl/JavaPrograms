@@ -8,7 +8,7 @@ public class Calculates {
 	    //third Execute
 		System.out.println("Single parameter Constructor : "+x);
 	}
-	public Calculates(int x,int y)//1000,2000
+	public Calculates(int x,int y)//1000, 200
 	{      this("Java "," is ","Best.");
 	       //Second execute
 		System.out.println("Two parameter Constructor : "+(x+y));
