@@ -6,6 +6,6 @@ public class CalculateDemoUsingConstructorOverloaging {
 
 	public static void main(String[] args)
 	{
-		new Calculates(100);
+		new Calculates(100);  //Anonymous and Name less Object after execution  its eligible for GC.
 	}   
 }
