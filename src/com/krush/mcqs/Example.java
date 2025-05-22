@@ -33,7 +33,7 @@ package com.krush.mcqs;
 
 
 
-
+/*
 //Que. Write a java program to show overriding toString() method to print object data?
 
 class Example
@@ -54,9 +54,29 @@ e1.company="IT Company";
 System.out.println(e1);
 }
 }
-/*
+
 eid:7279
 ename:Ganesh
 company:IT Company
- */
+ 
+*/
 
+
+
+
+
+
+
+
+
+//16. Write a java program shows creating class with static and non-static variables and their modifications?
+class Example
+{
+static int a = 10;
+       int b = 20;
+public static void main(String[] args)
+{
+   System.out.println(a);   //10
+   System.out.println(b);  //error
+}
+}
