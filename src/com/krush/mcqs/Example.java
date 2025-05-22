@@ -13,19 +13,50 @@ package com.krush.mcqs;
 //}
 //}
 
+//class Example
+//{
+//int a=10;
+//int b=20;
+//public static void main(String[] args)
+//{
+//Example e1=new Example();
+//Example e2=new Example();
+//System.out.println(e1.a+". .."+e1.b); //10. ..20
+//System.out.println(e2.a+". .."+e2.b); //10. ..20
+//e1.a=50;
+//e2.b=60;
+//System.out.println(e2.a+". .."+e2.b);  //10. ..60
+//System.out.println(e2.a+". .."+e2.b);  //10. ..60
+//}
+//}
+
+
+
+
+
+//Que. Write a java program to show overriding toString() method to print object data?
+
 class Example
 {
-int a=10;
-int b=20;
+int eid;
+String ename;
+String company;
+public String toString(){
+return
+"eid:"+eid+"\n"+"ename:"+ename+"\n"+"company:"+company+"\n";
+}
 public static void main(String[] args)
 {
 Example e1=new Example();
-Example e2=new Example();
-System.out.println(e1.a+". .."+e1.b); //10. ..20
-System.out.println(e2.a+". .."+e2.b); //10. ..20
-e1.a=50;
-e2.b=60;
-System.out.println(e2.a+". .."+e2.b);  //10. ..60
-System.out.println(e2.a+". .."+e2.b);  //10. ..60
+e1.eid=7279;
+e1.ename="Ganesh";
+e1.company="IT Company";
+System.out.println(e1);
 }
 }
+/*
+eid:7279
+ename:Ganesh
+company:IT Company
+ */
+
