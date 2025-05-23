@@ -68,7 +68,7 @@ company:IT Company
 
 
 
-
+/*
 //16. Write a java program shows creating class with static and non-static variables and their modifications?
 class Example
 {
@@ -80,3 +80,10 @@ public static void main(String[] args)
    System.out.println(b);  //error
 }
 }
+*/
+
+
+
+
+
+
