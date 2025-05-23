@@ -26,5 +26,6 @@ public class MultilevelInheritance
                  break;
                 default : System.out.print("Invalid choice!");
     }
+    sc.close();;
     }      
 }
