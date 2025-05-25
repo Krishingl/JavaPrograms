@@ -16,8 +16,8 @@ public class Employee {
 		DAPer = dAPer;
 	}
 
-	public double calculateGrossSalary() {
-		return (this.basicSalary + this.HRAPer + this.DAPer);
+	public double calculateGrossSalarssy() {
+		return (this.basicSalary + this.HRAPer + this.DAPer); 
 	}
 
 	@Override
