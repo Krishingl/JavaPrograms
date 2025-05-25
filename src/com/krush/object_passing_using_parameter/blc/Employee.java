@@ -24,6 +24,7 @@ public class Employee {
 	public String toString() {
 		return "Employee [employeeId=" + employeeId + ", empolyeeName=" + empolyeeName + ", basicSalary=" + basicSalary
 				+ ", HRAPer=" + HRAPer + ", DAPer=" + DAPer + "]";
+		
 	}
       
 	
