@@ -14,7 +14,7 @@ public class TaxCalculation {
 		Employee emp = new Employee(121, "Raj", 120000, 122, 222);
 
 		System.out.println(emp);
-		System.out.println("Employee Gross Salary is : " + emp.calculateGrossSalary());
+		System.out.println("Employee Gross Salary is : " + emp.calculateGrossSalarssy());
 
 		System.out.println("Employee include tax Salary is : " + t.calculateTax(emp));
 		System.out.println("----------------------------------------");

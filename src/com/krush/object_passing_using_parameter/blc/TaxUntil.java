@@ -3,13 +3,13 @@ package com.krush.object_passing_using_parameter.blc;
 public class TaxUntil {
 	public double calculateTax(Employee e) {
 		double tax=0;
-		if(e.calculateGrossSalary()>50000) {
-			tax=e.calculateGrossSalary()*0.20;
+		if(e.calculateGrossSalarssy()>50000) {
+			tax=e.calculateGrossSalarssy()*0.20;
 			
 		}else {
-			tax=e.calculateGrossSalary()*0.05;
+			tax=e.calculateGrossSalarssy()*0.05;
 		}
-		return (e.calculateGrossSalary()-tax);
+		return (e.calculateGrossSalarssy()-tax);
 	}
 	
 	
