@@ -27,20 +27,57 @@ package com.krush.mcqs.inheritance;
 
 
 
+//
+//public class Output
+//{
+//    public static void main(String [] args)
+//    {
+//        Count t = new Count();
+//        t.count();
+//    }
+//}
+//
+//class Count extends Count2
+//{
+//    Count()
+//    { //super();
+//
+//    }
+//}
+//class Count2
+//{
+//    void count()
+//    {
+//        System.out.print("Output = ");
+//
+//        for (int x = 0; x < 7; x++,x++ )
+//        {
+//            System.out.print(" " + x);
+//        }
+//    }
+//}
 
-public class Output
+
+//
+//
+//
+//Q4) Find the Output
+//
+//What will be the output of the following program?
+
+class Output
 {
     public static void main(String [] args)
     {
-        Count t = new Count();
-        t.count();
+        Count2 count = new Count2();
+        count.count();
     }
 }
 
 class Count extends Count2
 {
     Count()
-    { //super();
+    {
 
     }
 }
@@ -48,9 +85,10 @@ class Count2
 {
     void count()
     {
+        int i = 5;
         System.out.print("Output = ");
 
-        for (int x = 0; x < 7; x++,x++ )
+        for (int x = 0; x <= (i % 7); x += 1)
         {
             System.out.print(" " + x);
         }
