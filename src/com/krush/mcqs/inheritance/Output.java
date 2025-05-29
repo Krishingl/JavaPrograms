@@ -135,7 +135,7 @@ package com.krush.mcqs.inheritance;
 //Que-6)
 //___________________
 //What will be the output of the following program?
-
+/*
 public class Output
 {
     public static void main(String s[])
@@ -181,10 +181,46 @@ class B extends A
             }
     }
 }
+*/
 /*i is zero.
 i is one.
 i is two.
 i is three.
 i is greater than three.
 i is greater than three.
+*/
+
+
+
+
+
+/*
+//What will be the output of the following program?
+
+class Output
+{
+    public static void main(String s[])
+    {
+        int i = 2;
+        B b = new B();
+        b.execute();
+    }
+}
+
+class A
+{
+    A()
+    {
+        int i = 1;
+    }
+}
+
+class B extends A
+{
+    void execute()
+    {
+        System.out.println("i = " + i);
+    }
+}
+// compile time error
 */
