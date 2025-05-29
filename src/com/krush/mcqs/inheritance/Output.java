@@ -86,11 +86,12 @@ class Count2
     void count()
     {
         int i = 5;
-        System.out.print("Output = ");
+        System.out.print("Output = ");   
 
-        for (int x = 0; x <= (i % 7); x += 1)
+        for (int x = 0; x <= (i % 7); x += 1)  // i%7 == 5 % 7 ==>5
         {
             System.out.print(" " + x);
         }
     }
 }
+//Output =  0 1 2 3 4 5
