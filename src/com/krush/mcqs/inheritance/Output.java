@@ -64,6 +64,38 @@ package com.krush.mcqs.inheritance;
 //Q4) Find the Output
 //
 //What will be the output of the following program?
+//
+//class Output
+//{
+//    public static void main(String [] args)
+//    {
+//        Count2 count = new Count2();
+//        count.count();
+//    }
+//}
+//
+//class Count extends Count2
+//{
+//    Count()
+//    {
+//
+//    }
+//}
+//class Count2
+//{
+//    void count()
+//    {
+//        int i = 5;
+//        System.out.print("Output = ");   
+//
+//        for (int x = 0; x <= (i % 7); x += 1)  // i%7 == 5 % 7 ==>5
+//        {
+//            System.out.print(" " + x);
+//        }
+//    }
+//}
+////Output =  0 1 2 3 4 5
+
 
 class Output
 {
@@ -86,12 +118,13 @@ class Count2
     void count()
     {
         int i = 5;
-        System.out.print("Output = ");   
+        System.out.print("Output = ");
 
-        for (int x = 0; x <= (i % 7); x += 1)  // i%7 == 5 % 7 ==>5
+        for (int x = 0; x <= (i % 7); x += 1)
         {
             System.out.print(" " + x);
+            i++;
         }
     }
 }
-//Output =  0 1 2 3 4 5
+//Output =  0 1
